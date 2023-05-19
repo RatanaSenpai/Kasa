@@ -1,20 +1,21 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import HomePage from './pages/HomePage';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import HomePage from '../pages/HomePage';
 import AboutPage from '../pages/AboutPage';
-import DetailsPage from './pages/DetailsPage';
-import NotFoundPage from './pages/NotFoundPage';
+import NotFoundPage from '../pages/NotFoundPage';
+import AccomodationPage from '../pages/AccomodationPage';
 
-function AppRouter() {
+const Router = () => {
     return (
-    <Router>
-        <Switch>
-            <Route exact path="/" component={HomePage} />
-            <Route path="/details" component={DetailsPage} />
-            <Route path="/details/:id" component={DetailsPage} />
-            <Route component={NotFoundPage} />
-        </Switch>
-    </Router>
-);
-}
+        <BrowserRouter>
+        <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/accomodation/:id" element={<AccomodationPage />} />
+            <Route path="*" element={<NotFoundPage />} />
+        </Routes>
+        </BrowserRouter>
+    );
+};
 
-export default AppRouter;
+export default Router;
