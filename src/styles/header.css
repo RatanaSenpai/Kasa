@@ -1,0 +1,20 @@
+.header {
+    max-width: 1240px;
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 100px 63px 100px;
+    border: 2px solid red;
+}
+
+.header img {
+    width: 210.32px;
+    height: 68px;
+}
+
+.navigation {
+    width: 309px;
+    height: 34px;
+}
+
