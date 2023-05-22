@@ -10,7 +10,7 @@ const HomePage = () => {
         setAccommodations(accommodationsData);
     }, []);
     return (
-        <div>
+        <div className='home'>
             <Banner />
             {/* <h1>Accueil</h1> */}
             <CardGallery accommodations={accommodations} />

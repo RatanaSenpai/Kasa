@@ -1,8 +1,6 @@
 .navigation {
     width: 309px;
     height: 34px;
-    top: 17px;
-    border: 2px solid blue;
 }
 
 
@@ -12,11 +10,7 @@
     justify-content: space-between;
     padding: 0;
     margin: 0;
-    width: 100%;
-} 
-
-.navigation li {
-    border: 2px solid greenyellow;
+    width: 309px;
 }
 
 .navigation li:first-child {
@@ -38,7 +32,6 @@
     text-align: right;
     color: #FF6060;
     text-decoration: none;
-    
 }
 
 .nav-active {

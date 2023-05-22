@@ -1,7 +1,7 @@
 .banner {
     max-width: 1240px;
     height: 223px;
-    margin: 43px auto; 
+    margin: 43px 7%; 
     position: relative;
     border-radius: 25px;
     display: flex;

@@ -4,12 +4,13 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 60px;
+    row-gap: 50px;
+    column-gap: 5%;
     background-color: #F7F7F7;
     border-radius: 25px;
     max-width: 1240px;
     padding: 56px 50px;
-    margin: 43px auto;
+    margin: 43px 7%;
     overflow: hidden;
 }
 
@@ -18,7 +19,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    width: 340px;
+    width: 30%;
     height: 340px;
     text-decoration: none;
     color: inherit;
@@ -47,10 +48,9 @@
     position: relative;
     display: flex;
     align-items: flex-end;
-    width: 300px;
+    width: 88%;
     left: 5.88%;
     bottom: 5.88%;
-    border: 2px solid white;
     font-size: 18px;
     color: #FFFFFF;
     z-index: 2;

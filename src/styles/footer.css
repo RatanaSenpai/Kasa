@@ -1,7 +1,6 @@
 .footer {
     max-width: 1440px;
     height: 209px;
-    border: 2px solid yellow;
     display: flex;
     flex-direction: column;
     justify-content: center;

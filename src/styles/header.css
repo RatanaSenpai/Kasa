@@ -4,13 +4,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 40px 100px 63px 100px;
-    border: 2px solid red;
+    margin: 40px 7% 63px;
 }
 
 .header img {
     width: 210.32px;
     height: 68px;
+    
 }
 
 .navigation {
