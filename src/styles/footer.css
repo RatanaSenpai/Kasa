@@ -1,0 +1,23 @@
+.footer {
+    max-width: 1440px;
+    height: 209px;
+    border: 2px solid yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+}
+
+.footer img {
+    width: 122px;
+    height: 39.44px;
+    border: 2px solid blueviolet;
+}
+
+.copyright {
+    font-size: 24px;
+    line-height: 142.6%;
+    color: #FFFFFF;
+}
+
