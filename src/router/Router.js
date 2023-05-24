@@ -5,6 +5,7 @@ import AboutPage from '../pages/AboutPage';
 import NotFoundPage from '../pages/NotFoundPage';
 import AccomodationPage from '../pages/AccomodationPage';
 import Header from '../components/Header';
+import '../styles/reset.css'
 
 const Router = () => {
     return (

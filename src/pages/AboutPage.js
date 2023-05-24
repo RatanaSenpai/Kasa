@@ -1,11 +1,12 @@
 import React from 'react';
+import Banner from '../components/Banner';
+import coverPhotoAboutPage from '../assets/coverPhotoAboutPage.png';
 
 
 const AboutPage = () => {
     return (
-        <div>
-            
-            <h1>A Propos</h1>
+        <div className='about'>
+            <Banner image={coverPhotoAboutPage} />
         </div>
     );
 };

@@ -1,14 +1,13 @@
 import React from 'react';
-import coverPhoto from '../assets/coverPhotoHomePage.png';
 import '../styles/banner.css';
 
-const Banner = () => {
+const Banner = ({ image, text }) => {
     const bannerStyle = {
-        backgroundImage: `url(${coverPhoto})`,
+        backgroundImage: `url(${image})`,
     };
     return (
         <section className= 'banner' style={bannerStyle}>
-            <p>Chez vous, partout et ailleurs</p>
+            {text && <p>{text}</p>}
         </section>
     );
 };
