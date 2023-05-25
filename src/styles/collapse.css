@@ -1,0 +1,48 @@
+.collapse {
+    position: relative;
+    max-width: 1023px;
+    height: 47px;
+    margin: 0 13.9%;
+    background: #FF6060;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.collapse p {
+    position: absolute;
+    width: 94px;
+    height: 34px;
+    font-size: 24px;
+    color: #FFFFFF;
+    line-height: 34px;
+    left: 18px;
+    top: 5px;
+}
+
+.collapse-icon {
+    position: absolute;
+    width: 24px;
+    height: 13px;
+    top: 16px;
+    right: 17px;
+}
+
+.collapse-container {
+    margin-bottom: 31px;
+}
+
+.rectangle {
+    max-width: 1023px;
+    margin: 0 13.9%;
+    background: #F7F7F7;
+    border-radius: 5px;
+    padding: 27px 18px;
+}
+
+.rectangle-text {
+    max-width: 978px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #FF6060;
+}

@@ -8,9 +8,6 @@
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    padding: 0;
-    margin: 0;
-    width: 309px;
 }
 
 .navigation li:first-child {

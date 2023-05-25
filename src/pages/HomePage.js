@@ -12,7 +12,7 @@ const HomePage = () => {
     }, []);
     return (
         <div className='home'>
-            <Banner image={coverPhotoHomePage} text="Chez vous, partout et ailleurs" />
+            <Banner image={coverPhotoHomePage} text="Chez vous, partout et ailleurs" className="home-banner"/>
             {/* <h1>Accueil</h1> */}
             <CardGallery accommodations={accommodations} />
             <Footer />
