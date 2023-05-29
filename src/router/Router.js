@@ -10,13 +10,13 @@ import '../styles/reset.css'
 const Router = () => {
     return (
         <BrowserRouter>
-        <Header />
-        <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/about" element={<AboutPage />} />
-            <Route path="/accomodation/:id" element={<AccomodationPage />} />
-            <Route path="*" element={<NotFoundPage />} />
-        </Routes>
+            <Header />
+                <Routes>
+                <Route path="/" element={<HomePage />} />
+                <Route path="/about" element={<AboutPage />} />
+                <Route path="/accomodation/:id" element={<AccomodationPage />} />
+                <Route path="*" element={<NotFoundPage />} />
+                </Routes>
         </BrowserRouter>
     );
 };

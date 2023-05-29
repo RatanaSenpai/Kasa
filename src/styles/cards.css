@@ -1,5 +1,5 @@
 
-.cardGallery {
+.card-gallery {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -52,6 +52,7 @@
     left: 5.88%;
     bottom: 5.88%;
     font-size: 18px;
+    font-weight: 500;
     color: #FFFFFF;
     z-index: 2;
 }

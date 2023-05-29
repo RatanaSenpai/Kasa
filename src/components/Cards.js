@@ -7,7 +7,7 @@ import accommodations from '../datas/logements.json';
 
 const Cards = ({ id, title, cover }) => {
     return (
-        <Link to={`/accommodation/${id}`} className="card">
+        <Link to={`/accomodation/${id}`} className="card">
             <img src={cover} alt={title} />
             <h2>{title}</h2>
         </Link>
@@ -16,7 +16,7 @@ const Cards = ({ id, title, cover }) => {
 
 const CardGallery = () => {
     return (
-        <div className="cardGallery">
+        <div className="card-gallery">
             {accommodations.map((accommodation) => (
                 <Cards key={accommodation.id} {...accommodation} />
             ))}
