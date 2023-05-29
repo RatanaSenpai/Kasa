@@ -31,6 +31,8 @@ const AccommodationPage = () => {
 
     return (
         <>
+        <main className='main-content'>
+
             <div className='accomodation'>
                 <Carrousel images={accommodation.pictures} />
             </div>
@@ -43,7 +45,7 @@ const AccommodationPage = () => {
                     <div className='accomodation-content-infos-tags'>
                         {accommodation.tags.map((tag, index) => (
                             <span key={index} className='tag'>{tag}</span>
-                        ))}
+                            ))}
                     </div>
                 </div>
                 <div className='accomodation-content-host'>
@@ -62,7 +64,7 @@ const AccommodationPage = () => {
                     isFontSmall
                     customContentClass="description-content"
                     containerClass="accommodation-collapse description-collapse"
-                />
+                    />
                 </div>
                 <div className='accomodation-collapse-equipment equipment-collapse accommodation-collapse'>
                 <Collapse 
@@ -75,9 +77,10 @@ const AccommodationPage = () => {
                     isFontSmall
                     customContentClass="equipment-content"
                     containerClass="accommodation-collapse equipment-collapse"
-                />
+                    />
                 </div>
             </div>
+        </main>
             <Footer />
         </>
     );

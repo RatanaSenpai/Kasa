@@ -53,7 +53,7 @@
     flex-direction: column;
 }
 
-.collapse-rectangle-text {
+.rectangle-text {
     max-width: 978px;
     font-size: 24px;
     font-weight: 400;
@@ -66,4 +66,3 @@
 .equipment-collapse .rectangle-text {
     font-size: 18px;
 }
-

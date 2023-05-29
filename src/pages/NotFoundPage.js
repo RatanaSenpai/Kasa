@@ -7,7 +7,7 @@ import '../styles/footer.css';
 const NotFoundPage = () => {
     return (
         <>
-        <main className='notfound-page'>
+        <main className='notfound-page main-content'>
             <div className='notfound-page-content'>
                     <h1 className='notfound-page-content-title'>404</h1>
                     <p className='notfound-page-content-text'>Oups! La page que vous demandez n'existe pas.</p>

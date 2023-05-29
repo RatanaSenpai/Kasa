@@ -5,7 +5,7 @@ import './styles/app.css';
 
 const App = () => {
   return (
-    <div>
+    <div className="app-container">
       <Router />
     </div>
   );

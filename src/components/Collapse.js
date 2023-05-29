@@ -10,7 +10,6 @@ const Collapse = ({ title, content, isFontSmall, customContentClass, containerCl
     const handleClick = () => {
         setIsOpen(!isOpen);
     }
-
     return (
         <div className={`collapse-container ${customContentClass} ${containerClass}`}>
             <div className={`collapse ${isOpen ? 'open' : ''}`} onClick={handleClick}>
@@ -19,7 +18,7 @@ const Collapse = ({ title, content, isFontSmall, customContentClass, containerCl
             </div>
             {isOpen && (
                 <div className="collapse-rectangle">
-                    <p className={`collapse-rectangle-text ${isFontSmall ? 'font-small' : ''}`}>{content}</p>
+                    <p className={`rectangle-text ${isFontSmall ? 'font-small' : ''}`}>{content}</p>
                 </div>
             )}
         </div>
