@@ -25,7 +25,6 @@
 }
 
 .accomodation-content-infos-section h1 {
-    
     height: 51px;
     font-weight: 500;
     font-size: 36px;
@@ -61,7 +60,6 @@
     display: flex;
     flex-direction: row;
     gap: 10px;
-    
 }
 
 .accomodation-content-host-section img {
@@ -83,8 +81,8 @@
     width: 1240px;
     display: flex;
     justify-content: space-between;
-    margin-top: 24px;
-    margin-left: 7%;
+    margin: 24px 7%;
+    padding-bottom: 20px;
 }
 
 .accommodation-collapse ul {

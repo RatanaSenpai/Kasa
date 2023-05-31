@@ -11,7 +11,7 @@
 }
 
 .banner.home-banner {
-    margin: 43px 7%;
+    margin: 0 7%;
 }
 
 .about-banner {
@@ -37,3 +37,27 @@
     text-align: center;
     font-size: 48px; 
 }
+
+@media (max-width: 600px) {
+    .banner {
+        height: 111px;
+        border-radius: 10px;
+        display: flex;
+        background-size: cover;
+    }
+    .banner.home-banner {
+        margin: 0 3.4%;
+    }
+    .banner::after {
+        border-radius: 10px;
+    }
+    .banner p {
+        font-size: 24px;
+        height: 48px;
+        text-align: left;
+        padding: 33px;
+        display: flex;
+        align-items: center;
+    }
+}
+

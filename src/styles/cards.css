@@ -23,6 +23,11 @@
     height: 340px;
     text-decoration: none;
     color: inherit;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
 }
 
 .card::before {
@@ -55,4 +60,36 @@
     font-weight: 500;
     color: #FFFFFF;
     z-index: 2;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+    .card-gallery {
+        row-gap: 25px;
+        column-gap: 25px;
+    }
+    .card {
+        width: 48%;
+        
+    }
+}
+@media (max-width: 900px) {
+    .card {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .card-gallery {
+        background-color: #FFFFFF;
+        padding: 0;
+        margin: 22px 3.4%;
+        border-radius: 10px;
+        row-gap: 20px;
+    }
+    .card {
+        height: 255px;
+    }
+    
 }

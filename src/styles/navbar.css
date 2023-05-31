@@ -11,11 +11,11 @@
 }
 
 .navigation li:first-child {
-    width: 136px;
+    width: 166px;
 }
 
 .navigation li:last-child {
-    width: 116px;
+    width: 136px;
 }
 
 .nav-link {
@@ -35,4 +35,32 @@
     text-decoration-line: underline;
     color: #FF6060;
 }
+
+@media (max-width: 900px) {
+    .header {
+        height: 40px;
+    }
+    .header img {
+        width: 145px;
+        height: 47px;
+    }
+}
+
+@media (max-width: 600px) {
+    .navigation ul {
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+    .navigation li:first-child {
+        width: 59px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    
+}
+
+
+
+
 

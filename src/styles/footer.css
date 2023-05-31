@@ -23,3 +23,9 @@
     margin-top: 28px;
 }
 
+@media (max-width: 600px) {
+    .footer-copyright{
+        font-size: 12px;
+    }
+}
+
