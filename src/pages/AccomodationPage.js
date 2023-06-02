@@ -31,17 +31,15 @@ const AccommodationPage = () => {
 
     return (
         <>
-        <main className='main-content'>
+        <main className='main-content accommodation-page'>
 
             <div className='accomodation'>
                 <Carrousel images={accommodation.pictures} />
             </div>
             <div className='accomodation-content'>
                 <div className='accomodation-content-infos'>
-                    <div className='accomodation-content-infos-section'>
                         <h1>{accommodation.title}</h1>
                         <p>{accommodation.location}</p>
-                    </div>
                     <div className='accomodation-content-infos-tags'>
                         {accommodation.tags.map((tag, index) => (
                             <span key={index} className='tag'>{tag}</span>
@@ -57,31 +55,25 @@ const AccommodationPage = () => {
                 </div>
             </div>
             <div className='accomodation-collapse'>
-            <div className='accomodation-collapse-description description-collapse'>
-                <Collapse 
-                    title={'Description'} 
-                    content={accommodation.description} 
-                    isFontSmall
-                    customContentClass="description-content"
-                    containerClass="accommodation-collapse description-collapse"
+                <div className='accomodation-collapse-description'>
+                    <Collapse 
+                        title={'Description'} 
+                        content={accommodation.description} 
                     />
                 </div>
-                <div className='accomodation-collapse-equipment equipment-collapse accommodation-collapse'>
-                <Collapse 
-                    title={'Équipements'} 
-                    content={
-                        <ul>
-                        {accommodation.equipments.map((equip, index) => <li key={index}>{equip}</li>)}
-                        </ul>
-                    }  
-                    isFontSmall
-                    customContentClass="equipment-content"
-                    containerClass="accommodation-collapse equipment-collapse"
+                <div className='accomodation-collapse-equipment'>
+                    <Collapse 
+                        title={'Équipements'} 
+                        content={
+                            <ul>
+                                {accommodation.equipments.map((equip, index) => <li key={index}>{equip}</li>)}
+                            </ul>
+                        }  
                     />
                 </div>
             </div>
         </main>
-            <Footer />
+        <Footer />
         </>
     );
 };

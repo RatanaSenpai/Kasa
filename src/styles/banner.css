@@ -7,15 +7,16 @@
     justify-content: center;
     align-items: center;
     background-position: center;
-    
 }
 
 .banner.home-banner {
     margin: 0 7%;
+    margin-top: 63px;
 }
 
 .about-banner {
     margin: 0 7%;
+    margin-top: 44px;
 }
 
 .banner::after {
@@ -38,7 +39,7 @@
     font-size: 48px; 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 680px) {
     .banner {
         height: 111px;
         border-radius: 10px;

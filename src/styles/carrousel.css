@@ -33,12 +33,32 @@
 .carrousel-image-counter {
     position: absolute;
     bottom: 24px;
-    left: 607px;
+    left: 51.2%;
     color: #FFFFFF;
     font-size: 18px;
     font-weight: 500;
 }
 
 
-
+@media (max-width: 680px) {
+    .carousel {
+        height: 255px;
+    }
+    .carousel button {
+        width: 11px;
+        height: 19px;
+    }
+    .carrouselArrowLeft {
+        left: 5px;
+        top: 118px;
+    }
+    .carrouselArrowRight {
+        right: 5px;
+        top: 118px;
+    }
+    .carrousel-image-counter {
+        display: none;
+    }
+    
+}
 

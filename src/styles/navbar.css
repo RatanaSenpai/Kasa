@@ -3,7 +3,6 @@
     height: 34px;
 }
 
-
 .navigation ul {
     list-style-type: none;
     display: flex;
@@ -46,18 +45,16 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 680px) {
     .navigation ul {
         display: flex;
         justify-content: flex-end;
-        
     }
     .navigation li:first-child {
         width: 59px;
         font-size: 12px;
         margin-right: 10px;
     }
-    
 }
 
 

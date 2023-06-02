@@ -3,6 +3,7 @@ import Banner from '../components/Banner';
 import coverPhotoAboutPage from '../assets/coverPhotoAboutPage.png';
 import Collapse from '../components/Collapse';
 import Footer from '../components/Footer';
+import '../styles/aboutpage.css'
 
 const collapses = [
     {
@@ -24,16 +25,17 @@ const collapses = [
 ];
 
 const AboutPage = () => {
+    
     return (
         <>
-        <main className='main-content'>
+        <main className='main-content about-page'>
             <div className='about-banner'>
                 <Banner image={coverPhotoAboutPage} />
             </div>
             <div className='about-collapses'>
                 {collapses.map((collapse, index) => (
                     <Collapse key={index} title={collapse.title} content={collapse.text} />
-                    ))}
+                ))}
             </div>
         </main>
         <Footer />            
