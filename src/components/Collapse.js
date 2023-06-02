@@ -17,7 +17,7 @@ const Collapse = ({ title, content, titleFontSize, contentFontSize }) => {
             </div>
             {isOpen && (
                 <div className="collapse-rectangle">
-                    <p style={{fontSize: contentFontSize}}>{content}</p>
+                    <span style={{fontSize: contentFontSize}}>{content}</span>
                 </div>
             )}
         </div>

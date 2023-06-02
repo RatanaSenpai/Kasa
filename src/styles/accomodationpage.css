@@ -115,14 +115,14 @@
     background: #F7F7F7;
     border-radius: 10px;
     --collapse-rectangle-color: #FF6060;
+    padding: 30px 12px 10px 20px;
 }
 
-.accomodation-collapse .collapse-rectangle p {
+.accomodation-collapse .collapse-rectangle span {
     font-size: 18px;
     font-weight: 400;
     line-height: 142%;
-    padding: 20px 40px;
-    margin: 1px;
+    
 }
 
 .accomodation-collapse .collapse-rectangle ul {
