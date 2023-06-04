@@ -41,12 +41,12 @@
 
 @media (max-width: 680px) {
     .banner {
-        height: 111px;
         border-radius: 10px;
         display: flex;
         background-size: cover;
     }
     .banner.home-banner {
+        height: 111px;
         margin: 0 3.4%;
     }
     .banner::after {
