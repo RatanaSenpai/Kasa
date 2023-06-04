@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import Banner from '../components/Banner';
 import CardGallery from '../components/Cards';
 import accommodationsData from '../datas/logements.json';
-import Footer from '../components/Footer';
 import coverPhotoHomePage from '../assets/coverPhotoHomePage.png';
 
 const HomePage = () => {
@@ -14,7 +13,6 @@ const HomePage = () => {
         <div className='home'>
             <Banner image={coverPhotoHomePage} text="Chez vous, partout et ailleurs" className="home-banner"/>
             <CardGallery accommodations={accommodations} />
-            <Footer />
         </div>
     );
 };

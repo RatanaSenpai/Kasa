@@ -29,4 +29,5 @@
     background: var(--collapse-rectangle-background);
     border-radius: var(--collapse-border-radius);
     padding: var(--collapse-rectangle-padding);
+    font-size: var(--collapse-font-size);
 }

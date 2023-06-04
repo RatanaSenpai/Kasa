@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Footer from '../components/Footer';
 import '../styles/notfoundpage.css';
 import '../styles/footer.css';
 
@@ -14,7 +13,6 @@ const NotFoundPage = () => {
                     <Link to="/" className="notfound-page-content-link">Retour à la page d'accueil</Link>
             </div>
         </main>
-        <Footer />
         </>
     );
 };

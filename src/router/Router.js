@@ -5,6 +5,7 @@ import AboutPage from '../pages/AboutPage';
 import NotFoundPage from '../pages/NotFoundPage';
 import AccomodationPage from '../pages/AccomodationPage';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import '../styles/reset.css'
 
 const Router = () => {
@@ -12,11 +13,12 @@ const Router = () => {
         <BrowserRouter>
             <Header />
                 <Routes>
-                <Route path="/" element={<HomePage />} />
-                <Route path="/about" element={<AboutPage />} />
-                <Route path="/accomodation/:id" element={<AccomodationPage />} />
-                <Route path="*" element={<NotFoundPage />} />
+                    <Route path="/" element={<HomePage />} />
+                    <Route path="/about" element={<AboutPage />} />
+                    <Route path="/accomodation/:id" element={<AccomodationPage />} />
+                    <Route path="*" element={<NotFoundPage />} />
                 </Routes>
+            <Footer />
         </BrowserRouter>
     );
 };

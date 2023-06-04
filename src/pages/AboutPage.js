@@ -2,7 +2,6 @@ import React from 'react';
 import Banner from '../components/Banner';
 import coverPhotoAboutPage from '../assets/coverPhotoAboutPage.png';
 import Collapse from '../components/Collapse';
-import Footer from '../components/Footer';
 import '../styles/aboutpage.css'
 
 const collapses = [
@@ -37,8 +36,7 @@ const AboutPage = () => {
                     <Collapse key={index} title={collapse.title} content={collapse.text} />
                 ))}
             </div>
-        </main>
-        <Footer />            
+        </main>           
         </>
     );
 };

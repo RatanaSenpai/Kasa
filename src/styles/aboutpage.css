@@ -23,7 +23,7 @@
     --collapse-border-radius: 5px;
     --collapse-rectangle-padding: 27px 18px;
     --collapse-rectangle-color: #FF6060;
-    /* --content-font-size: 24px; */
+    --collapse-font-size: 24px;
 }
 
 .about-collapses .collapse-rectangle p {

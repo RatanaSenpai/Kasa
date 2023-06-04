@@ -7,7 +7,6 @@ import '../styles/accomodationpage.css'
 import starActive from '../assets/starActive.png';
 import starInactive from '../assets/starInactive.png';
 import Collapse from '../components/Collapse';
-import Footer from '../components/Footer';
 
 const AccommodationPage = () => {
     const { id } = useParams();
@@ -73,7 +72,6 @@ const AccommodationPage = () => {
                 </div>
             </div>
         </main>
-        <Footer />
         </>
     );
 };
