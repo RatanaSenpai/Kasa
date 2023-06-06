@@ -50,7 +50,11 @@
         font-weight: 500;
         font-size: 13px;
     }
-    .about-collapses .collapse-rectangle p {
+    .about-collapses .collapse-rectangle {
+        padding: 20px 12px 20px 20px;
+        line-height: 70%;
+    }
+    .about-collapses .collapse-rectangle span {
         font-weight: 400;
         font-size: 12px;
     }

@@ -24,7 +24,6 @@ const collapses = [
 ];
 
 const AboutPage = () => {
-    
     return (
         <>
         <main className='main-content about-page'>

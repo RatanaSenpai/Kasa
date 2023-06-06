@@ -209,7 +209,11 @@
         width: 16px;
         height: 9px;
     }
-    .accomodation-collapse .collapse-rectangle p {
+    .accomodation-collapse .collapse-rectangle {
+        padding: 20px 12px 20px 20px;
+    }
+
+    .accomodation-collapse .collapse-rectangle span {
         font-weight: 400;
         font-size: 12px;
     }
