@@ -63,7 +63,7 @@
 
 @media (max-width: 445px) {
     .banner p {
-        padding-right: 70px;
+        width: 280px;
     }
 }
 
