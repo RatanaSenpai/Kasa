@@ -1,3 +1,4 @@
+// useState permet de créer et de gérer l'état des éléments du composant, ici l'indice de l'image
 import React, { useState } from 'react';
 import '../styles/carrousel.css';
 import carrouselArrowLeft from '../assets/carrouselArrowLeft.png';

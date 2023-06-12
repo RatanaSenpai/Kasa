@@ -1,4 +1,5 @@
 import React from 'react';
+// fournit des informations sur l'URL actuelle
 import { NavLink } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
 import '../styles/navbar.css';

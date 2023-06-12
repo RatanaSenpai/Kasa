@@ -1,4 +1,5 @@
 import React from 'react';
+// récupére l'ID de l'hébergement à partir de l'URL de la page.
 import { useParams } from 'react-router-dom';
 import accommodations from '../datas/logements.json';
 import NotFoundPage from '../pages/NotFoundPage';

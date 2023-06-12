@@ -200,6 +200,7 @@
     }
     .accomodation-collapse-equipment {
         width: 100%;
+        margin-bottom: 64px;
     }
     .accomodation-collapse p {
         font-weight: 500;

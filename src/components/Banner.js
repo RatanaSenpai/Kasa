@@ -7,4 +7,5 @@ const Banner = ({ image, text, className }) => (
     </section>
 );
 
+
 export default Banner;
