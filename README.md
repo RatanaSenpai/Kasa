@@ -27,7 +27,7 @@ Démarrer le projet en React et développer l’ensemble de l’application, les
 
 
 
-## Screenshots
+## Screenshot
 
 ![App Screenshot](https://github.com/RatanaSenpai/Kasa/blob/main/screenshotKasa.png)
 
