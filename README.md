@@ -33,7 +33,7 @@ Démarrer le projet en React et développer l’ensemble de l’application, les
 
 ## Testez le projet
 ```bash
-  https://github.com/RatanaSenpai/Kasa.git
+ git clone  https://github.com/RatanaSenpai/Kasa.git
 ```
 ## Installation
 
