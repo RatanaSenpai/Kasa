@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/RatanaSenpai/Kasa/static/css/main.71a9a13b.css",
+    "main.js": "/RatanaSenpai/Kasa/static/js/main.3dc21e38.js",
+    "static/media/coverPhotoAboutPage.png": "/RatanaSenpai/Kasa/static/media/coverPhotoAboutPage.6c79766be217203aa351.png",
+    "static/media/coverPhotoHomePage.png": "/RatanaSenpai/Kasa/static/media/coverPhotoHomePage.e76961bbfb39d9c6c040.png",
+    "index.html": "/RatanaSenpai/Kasa/index.html",
+    "main.71a9a13b.css.map": "/RatanaSenpai/Kasa/static/css/main.71a9a13b.css.map",
+    "main.3dc21e38.js.map": "/RatanaSenpai/Kasa/static/js/main.3dc21e38.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71a9a13b.css",
+    "static/js/main.3dc21e38.js"
+  ]
+}
