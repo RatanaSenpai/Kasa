@@ -27,7 +27,7 @@ Démarrer le projet en React et développer l’ensemble de l’application, les
 
 ## Demo
 
-https://ratanasenpai.github.io/Kasa/
+en cours de déploiement...
 
 ## Screenshot
 
