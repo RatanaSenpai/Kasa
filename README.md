@@ -1,4 +1,3 @@
-
 # ![Logo](https://github.com/thierry-laval/archives/blob/master/images/Logo_OpenClassrooms.png?raw=true) Projet 7 Créez une application web de location immobilière avec React
 
 Il s'agit du dernier projet, le projet 7 du parcours de la formation OpenClassRooms qui va permettre d'évaluer les compétences suivantes:
@@ -7,7 +6,9 @@ Il s'agit du dernier projet, le projet 7 du parcours de la formation OpenClassRo
 - Développer des éléments de l'interface d'un site web grâce à des composants React
 - Initialiser une application avec Create React App
 
-
+## Objectif à la fin projet:
+- Apprendre React
+- Créer une applicaiton avec React
 
 ## Kasa
 
