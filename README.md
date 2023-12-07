@@ -8,7 +8,7 @@ Il s'agit du dernier projet, le projet 7 du parcours de la formation OpenClassRo
 
 ## Objectif à la fin projet:
 - Apprendre React
-- Créer une applicaiton avec React
+- Créer une application avec React
 
 ## Kasa
 
